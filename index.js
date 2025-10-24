@@ -109,5 +109,4 @@ async function principal() {
     console.error('Error:', err.message);
     }
 }
-
 principal();
