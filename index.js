@@ -77,7 +77,7 @@ async function hacePOST(extraArgs) {
 
     const creado = await res.json();
     console.log('Producto creado:');
-    console.log(JSON.stringify(created, null, 2));
+    console.log(JSON.stringify(creado, null, 2));
 }
 
 async function haceBorrado(id) {
